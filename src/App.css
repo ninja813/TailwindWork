@@ -1,0 +1,37 @@
+.navbar{
+  background-color: red;
+  height: 60px;
+  position: fixed;
+}
+.hero{
+  position: relative;
+  margin-bottom: 70px;
+  color: red;
+}
+.hero2{
+  position: absolute;
+  top:20px;
+  
+}
+.hero2 img{
+  margin-top:40px;
+}
+.hero2 p{
+  margin-top: 20px;
+}
+.hero2 button{
+  margin-top:10px;
+}
+.overlay{
+  background-color: black;
+  opacity: 0.4;
+  height: 550px;
+  position: absolute;
+  top:40px;
+  width: 100vw;
+}
+.one-movie img{
+  height: 120px;
+  width: 190px;
+  object-fit: cover;
+}

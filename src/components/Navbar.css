@@ -1,0 +1,43 @@
+.hamburger{
+    display: none;
+}
+.nav-user{
+    display: flex;
+}
+
+@media screen and (max-width: 680px) {
+    .hamburger{
+        display: block;
+    }
+    .btn-nav{
+            position: fixed;
+            margin-top: 20px;
+            margin-left: 120px;
+            left:200%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: white;
+            width: 60%;
+            height: 20%;
+            text-align: center;
+            transition: 0.4s;
+            border-radius: 15px;
+            border: 1px solid;
+    }
+    .btn-in, .btn-up{
+        margin-bottom: 20px;
+    }
+    .btn-nav.active{
+        left: 0;
+    }
+    .btn-out p{
+        display: none;
+    }
+    .nav-user{
+        display: flex;
+    }
+    .searchbar-search{
+        width: 150px;
+    }
+}
